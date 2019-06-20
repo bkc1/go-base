@@ -4,11 +4,6 @@ phases:
   install:
     runtime-versions:
       golang: 1.12
-#    commands:
-#      - echo.Logging in to Amazon ECR...
-#      - curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
-#      - unzip awscli-bundle.zip
-#      - sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
