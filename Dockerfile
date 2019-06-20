@@ -1,3 +1,3 @@
-# Simple base golang image
-FROM golang
+## Simple base golang image
+FROM golang:alpine
 
